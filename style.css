@@ -1,0 +1,449 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+/* Seccion Navegador */
+.navbar {
+    padding: 1.5rem;
+    background-color: white;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-item {
+    margin: 25px;
+}
+
+.imglogo {
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 0px 0px 16px black;
+}
+
+
+/* Estilo Generales */
+
+
+.seccion-oscura {
+    background-color: #1b1b32;
+    color: blanchedalmond;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-descripcion {
+    font-size: 1,2rem;
+    color: #584e4e;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+/* Sección Hero */
+
+.hero {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/* Seccion Sobre-Mi */
+.sobre-mi {
+    height: 800px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;    
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-hero-item {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 1500px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.conoce {
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.session-titulo {
+    font-size: 40px;
+}
+
+.session-texto {
+    font-size: 20px;
+}
+
+
+/* Desarrollo web */
+
+.misdesarrollos {
+    font-size: 100px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+.card {
+    box-shadow: 0 0 6px black;
+    width: 400px;
+    margin: 30px 40px;
+}
+
+.card-title {
+    font-size: large;
+}
+
+.imgpintura {
+    width: 100%;
+    height: 10%;
+    border-radius: 2%;
+}
+
+.makeup{
+    width: 100%;
+    height: 30%;
+    border-radius: 2%;
+}
+
+.antenas{
+    width: 100%;
+    height: 30%;
+    border-radius: 2%;
+}
+.pc {
+    width: 100%;
+    height: 30%px;
+    border-radius: 2%;
+}
+
+
+
+/* Proyectos */
+
+.proyectos-contenedor {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bi {
+    background-color: black;
+    border-radius: 100%;
+}
+
+
+div .row {
+    align-items: center;
+    justify-content: center;
+}
+.proyectos-recientes {
+    background-color:  #1b1b32 ;
+    color: white;
+    height: 900px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;    
+}
+
+.proyectos-recientes .row .proyecto{
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    transition: all 0.2s ease;
+}
+
+.proyecto img {
+    width: 20%;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.btn i {
+
+    width: 1px;
+    background-color: white;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay i {
+
+    font-size: 60px;
+    margin: 10px;
+}
+
+.overlay .icono-contenedor {
+    display: flex;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+/* Articulos */
+.articulos {
+    margin: 150px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;    
+}
+
+.articulos .card {
+    width: 100%;
+    margin: 20px;
+    max-width: 800px;
+    min-width: 330px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
+.articulo-botton {
+    margin-top: 50px;
+}
+
+/* Contacto */
+.contacto {
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #1b1b32;;
+}
+
+.conteiner {
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.rectangulo {
+    width: 100%;
+    height: 80%;
+    margin-top: 34px;
+    background-color: #8080804d;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px blanchedalmond;
+}
+
+
+.seccion-descripcion {
+    color: white;
+    font-size: 1,2rem;
+
+}
+
+.seccion-email {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.seccion-email button {
+    font-weight: bold;
+    padding: 1.25em 2em;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.seccion-email button i {
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+i {
+    width: 50px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*Footer*/
+.redessociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.redessociales a {
+    margin: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Ventajas de Tener un Sitio Web*/
+
+.ventajas {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b32;
+    color: white;
+
+  
+}
+
+/* Desarrollo con Código vs con Wordpress */
+
+.desarrollo {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b32;
+    color: white;
+}
+
+/*Qué es un Dominio y un Hosting*/
+
+.dominio {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b32;
+    color: white;
+}
+
+.dominioid {
+    padding: 10%;
+
+}
+
+
+/* Medias */
+
+@media screen and (max-width: 986px ) {
+
+    .proyecto img {
+        width: 50%;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .misdesarrollos {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 576px ) {
+
+    .proyecto img {
+        width: 70%;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .misdesarrollos {
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 400px ) {
+
+    .proyecto img {
+        width: 100%;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .misdesarrollos {
+        font-size: 70px;
+    }
+    
+}
