@@ -440,6 +440,7 @@ p {
     .contenedor {
         display: flex;
         flex-direction: column;
+        width: 80%;
     }
     .misdesarrollos {
         font-size: 70px;
@@ -451,7 +452,6 @@ p {
     .divisiones {
         display: flex;
         flex-direction: column;
-        width: 90%;
     
 }
 
