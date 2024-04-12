@@ -110,16 +110,20 @@ body {
 }
 
 .contenedor {
-    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 100px 0px;
 }
+.divisiones {
+    display: flex;
+    flex-direction: row;
+}
 .card {
     box-shadow: 0 0 6px black;
-    width: 400px;
+    width: 600px;
     margin: 30px 40px;
 }
 
@@ -129,13 +133,13 @@ body {
 
 .imgpintura {
     width: 100%;
-    height: 10%;
+    height: 100%;
     border-radius: 2%;
 }
 
 .makeup{
     width: 100%;
-    height: 30%;
+    height: 100%;
     border-radius: 2%;
 }
 
@@ -152,10 +156,18 @@ body {
 
 .cartas {
     width: 100%;
-    height: 30%;
     border-radius: 2%;
 }
 
+.cultura {
+    width: 100%;
+    height: 470px;
+    border-radius: 2%;
+}
+
+.grafica {
+    width: 600px;
+}
 
 
 /* Proyectos */
