@@ -448,6 +448,9 @@ p {
         align-items: center;
         text-align: center;
     }
+    .divisiones {
+        display: flex;
+        flex-direction: column
     
 }
 
